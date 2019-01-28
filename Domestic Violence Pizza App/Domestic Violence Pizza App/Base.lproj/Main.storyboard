@@ -46,10 +46,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Ze-62-Tab">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="untitled.png" id="GX6-44-w9V">
-                            <connections>
-                                <segue destination="HDS-37-IxR" kind="push" id="2MZ-go-8aB"/>
-                            </connections>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="keH-Wd-aSc">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IZ6-2g-U9B">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
