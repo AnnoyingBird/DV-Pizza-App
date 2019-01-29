@@ -16,8 +16,6 @@
 		4B19B13F21C03E7C007903A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B13D21C03E7C007903A7 /* Main.storyboard */; };
 		4B19B14121C03E7E007903A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B14021C03E7E007903A7 /* Assets.xcassets */; };
 		4B19B14421C03E7E007903A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B14221C03E7E007903A7 /* LaunchScreen.storyboard */; };
-		4B19B14F21C03E7E007903A7 /* Domestic_Violence_Pizza_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B19B14E21C03E7E007903A7 /* Domestic_Violence_Pizza_AppTests.swift */; };
-		4B19B15A21C03E7E007903A7 /* Domestic_Violence_Pizza_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B19B15921C03E7E007903A7 /* Domestic_Violence_Pizza_AppUITests.swift */; };
 		4BD624A321E90E94007D0E7C /* StartingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD624A221E90E94007D0E7C /* StartingPage.swift */; };
 		4BD624A521E91015007D0E7C /* untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD624A421E91015007D0E7C /* untitled.png */; };
 /* End PBXBuildFile section */
@@ -52,11 +50,7 @@
 		4B19B14321C03E7E007903A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B19B14521C03E7E007903A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B19B14A21C03E7E007903A7 /* Domestic Violence Pizza AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domestic Violence Pizza AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B19B14E21C03E7E007903A7 /* Domestic_Violence_Pizza_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domestic_Violence_Pizza_AppTests.swift; sourceTree = "<group>"; };
-		4B19B15021C03E7E007903A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B19B15521C03E7E007903A7 /* Domestic Violence Pizza AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domestic Violence Pizza AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B19B15921C03E7E007903A7 /* Domestic_Violence_Pizza_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domestic_Violence_Pizza_AppUITests.swift; sourceTree = "<group>"; };
-		4B19B15B21C03E7E007903A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BD624A221E90E94007D0E7C /* StartingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPage.swift; sourceTree = "<group>"; };
 		4BD624A421E91015007D0E7C /* untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitled.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -90,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				4B19B13821C03E7C007903A7 /* Domestic Violence Pizza App */,
-				4B19B14D21C03E7E007903A7 /* Domestic Violence Pizza AppTests */,
-				4B19B15821C03E7E007903A7 /* Domestic Violence Pizza AppUITests */,
 				4B19B13721C03E7C007903A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,24 +115,6 @@
 				4B19B14521C03E7E007903A7 /* Info.plist */,
 			);
 			path = "Domestic Violence Pizza App";
-			sourceTree = "<group>";
-		};
-		4B19B14D21C03E7E007903A7 /* Domestic Violence Pizza AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B19B14E21C03E7E007903A7 /* Domestic_Violence_Pizza_AppTests.swift */,
-				4B19B15021C03E7E007903A7 /* Info.plist */,
-			);
-			path = "Domestic Violence Pizza AppTests";
-			sourceTree = "<group>";
-		};
-		4B19B15821C03E7E007903A7 /* Domestic Violence Pizza AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4B19B15921C03E7E007903A7 /* Domestic_Violence_Pizza_AppUITests.swift */,
-				4B19B15B21C03E7E007903A7 /* Info.plist */,
-			);
-			path = "Domestic Violence Pizza AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B19B14F21C03E7E007903A7 /* Domestic_Violence_Pizza_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B19B15A21C03E7E007903A7 /* Domestic_Violence_Pizza_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
