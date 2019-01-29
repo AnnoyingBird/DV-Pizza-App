@@ -1,10 +1,5 @@
-//
 //  AppDelegate.swift
 //  Domestic Violence Pizza App
-//
-//  Created by Josh Admin on 12/11/18.
-//  Copyright © 2018 Josh Admin. All rights reserved.
-//
 
 import UIKit
 

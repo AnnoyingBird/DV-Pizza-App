@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187975DB21FFB14900E4B7EC /* SizeCrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187975DA21FFB14900E4B7EC /* SizeCrust.swift */; };
-		187975DD21FFB15C00E4B7EC /* SaucesDrinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187975DC21FFB15C00E4B7EC /* SaucesDrinks.swift */; };
-		187975DF21FFB16A00E4B7EC /* Toppings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187975DE21FFB16A00E4B7EC /* Toppings.swift */; };
-		187975E121FFB1B500E4B7EC /* SpecialRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187975E021FFB1B500E4B7EC /* SpecialRequests.swift */; };
-		187975E321FFB1D500E4B7EC /* Confirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187975E221FFB1D500E4B7EC /* Confirm.swift */; };
 		4B19B13A21C03E7C007903A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B19B13921C03E7C007903A7 /* AppDelegate.swift */; };
 		4B19B13F21C03E7C007903A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B13D21C03E7C007903A7 /* Main.storyboard */; };
 		4B19B14121C03E7E007903A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B14021C03E7E007903A7 /* Assets.xcassets */; };
 		4B19B14421C03E7E007903A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B14221C03E7E007903A7 /* LaunchScreen.storyboard */; };
-		4BD624A321E90E94007D0E7C /* StartingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD624A221E90E94007D0E7C /* StartingPage.swift */; };
 		4BD624A521E91015007D0E7C /* untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD624A421E91015007D0E7C /* untitled.png */; };
+		FE5166A92200E991008176AB /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5166A82200E991008176AB /* StartingView.swift */; };
+		FE5166AB2200E9E5008176AB /* SauceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5166AA2200E9E5008176AB /* SauceView.swift */; };
+		FE5166AD2200EA77008176AB /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5166AC2200EA77008176AB /* InformationView.swift */; };
+		FE5166AF2200FBDA008176AB /* SizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5166AE2200FBDA008176AB /* SizeView.swift */; };
+		FE5166B12200FD98008176AB /* ToppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5166B02200FD98008176AB /* ToppingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		187975DA21FFB14900E4B7EC /* SizeCrust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCrust.swift; sourceTree = "<group>"; };
-		187975DC21FFB15C00E4B7EC /* SaucesDrinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaucesDrinks.swift; sourceTree = "<group>"; };
-		187975DE21FFB16A00E4B7EC /* Toppings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toppings.swift; sourceTree = "<group>"; };
-		187975E021FFB1B500E4B7EC /* SpecialRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialRequests.swift; sourceTree = "<group>"; };
-		187975E221FFB1D500E4B7EC /* Confirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirm.swift; sourceTree = "<group>"; };
 		4B19B13621C03E7C007903A7 /* Domestic Violence Pizza App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domestic Violence Pizza App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B19B13921C03E7C007903A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B19B13E21C03E7C007903A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,8 +45,12 @@
 		4B19B14521C03E7E007903A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B19B14A21C03E7E007903A7 /* Domestic Violence Pizza AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domestic Violence Pizza AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B19B15521C03E7E007903A7 /* Domestic Violence Pizza AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domestic Violence Pizza AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BD624A221E90E94007D0E7C /* StartingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPage.swift; sourceTree = "<group>"; };
 		4BD624A421E91015007D0E7C /* untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitled.png; sourceTree = SOURCE_ROOT; };
+		FE5166A82200E991008176AB /* StartingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		FE5166AA2200E9E5008176AB /* SauceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SauceView.swift; sourceTree = "<group>"; };
+		FE5166AC2200EA77008176AB /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		FE5166AE2200FBDA008176AB /* SizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeView.swift; sourceTree = "<group>"; };
+		FE5166B02200FD98008176AB /* ToppingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,18 +99,17 @@
 		4B19B13821C03E7C007903A7 /* Domestic Violence Pizza App */ = {
 			isa = PBXGroup;
 			children = (
+				FE5166B02200FD98008176AB /* ToppingView.swift */,
+				FE5166AE2200FBDA008176AB /* SizeView.swift */,
+				FE5166AA2200E9E5008176AB /* SauceView.swift */,
 				4B19B13921C03E7C007903A7 /* AppDelegate.swift */,
 				4B19B13D21C03E7C007903A7 /* Main.storyboard */,
 				4BD624A421E91015007D0E7C /* untitled.png */,
 				4B19B14021C03E7E007903A7 /* Assets.xcassets */,
 				4B19B14221C03E7E007903A7 /* LaunchScreen.storyboard */,
-				187975DC21FFB15C00E4B7EC /* SaucesDrinks.swift */,
-				187975DA21FFB14900E4B7EC /* SizeCrust.swift */,
-				187975DE21FFB16A00E4B7EC /* Toppings.swift */,
-				187975E021FFB1B500E4B7EC /* SpecialRequests.swift */,
-				187975E221FFB1D500E4B7EC /* Confirm.swift */,
-				4BD624A221E90E94007D0E7C /* StartingPage.swift */,
+				FE5166A82200E991008176AB /* StartingView.swift */,
 				4B19B14521C03E7E007903A7 /* Info.plist */,
+				FE5166AC2200EA77008176AB /* InformationView.swift */,
 			);
 			path = "Domestic Violence Pizza App";
 			sourceTree = "<group>";
@@ -249,13 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187975DD21FFB15C00E4B7EC /* SaucesDrinks.swift in Sources */,
-				187975E321FFB1D500E4B7EC /* Confirm.swift in Sources */,
-				4BD624A321E90E94007D0E7C /* StartingPage.swift in Sources */,
-				187975DF21FFB16A00E4B7EC /* Toppings.swift in Sources */,
-				187975DB21FFB14900E4B7EC /* SizeCrust.swift in Sources */,
+				FE5166B12200FD98008176AB /* ToppingView.swift in Sources */,
+				FE5166AB2200E9E5008176AB /* SauceView.swift in Sources */,
+				FE5166AD2200EA77008176AB /* InformationView.swift in Sources */,
+				FE5166A92200E991008176AB /* StartingView.swift in Sources */,
 				4B19B13A21C03E7C007903A7 /* AppDelegate.swift in Sources */,
-				187975E121FFB1B500E4B7EC /* SpecialRequests.swift in Sources */,
+				FE5166AF2200FBDA008176AB /* SizeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

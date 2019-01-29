@@ -1,9 +1,9 @@
-//  Confirm.swift
+//  StartingPage.swift
 //  Domestic Violence Pizza App
 
 import UIKit
 
-class Confirm: UIViewController {
+class StartingView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
