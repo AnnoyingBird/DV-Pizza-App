@@ -1,9 +1,9 @@
-//  SpecialRequests.swift
+//  InformationView.swift
 //  Domestic Violence Pizza App
 
 import UIKit
 
-class SpecialRequests: UIViewController {
+class InformationView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 

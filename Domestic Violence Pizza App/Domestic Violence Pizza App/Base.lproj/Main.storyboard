@@ -29,13 +29,13 @@
         <!--StartingView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Starting Page" id="BYZ-38-t0r" userLabel="StartingView" customClass="ViewController" customModule="Domestic_Violence_Pizza_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StartingView" title="Starting Page" id="BYZ-38-t0r" userLabel="StartingView" customClass="StartingView" customModule="Domestic_Violence_Pizza_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Starting Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evb-hf-Sds">
-                                <rect key="frame" x="135" y="70" width="104" height="21"/>
+                                <rect key="frame" x="135" y="323" width="104" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -76,7 +76,7 @@
         <!--SauceView-->
         <scene sceneID="wEf-nT-8gX">
             <objects>
-                <viewController title="Sauces and Drinks View" id="t8z-9R-iZn" userLabel="SauceView" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SauceView" title="Sauces and Drinks View" id="t8z-9R-iZn" userLabel="SauceView" customClass="SauceView" customModule="Domestic_Violence_Pizza_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lGH-5K-eWG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -234,10 +234,10 @@
             </objects>
             <point key="canvasLocation" x="-215" y="835"/>
         </scene>
-        <!--InformationPage-->
+        <!--InformationView-->
         <scene sceneID="5jl-t2-o9y">
             <objects>
-                <viewController title="InformationPage" id="HDS-37-IxR" sceneMemberID="viewController">
+                <viewController title="InformationView" id="HDS-37-IxR" customClass="InformationView" customModule="Domestic_Violence_Pizza_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nGv-hp-Uky">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -555,10 +555,10 @@
             </objects>
             <point key="canvasLocation" x="2313" y="-698"/>
         </scene>
-        <!--View Controller-->
+        <!--InfoPt2-->
         <scene sceneID="zGo-Zg-Ep1">
             <objects>
-                <viewController id="29z-RG-GgC" sceneMemberID="viewController">
+                <viewController title="InfoPt2" id="29z-RG-GgC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="une-6N-gZA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -599,7 +599,7 @@
         <!--SizeView-->
         <scene sceneID="ckQ-gL-zZw">
             <objects>
-                <viewController storyboardIdentifier="Size View" title="Size, Crust, and Drink View" id="MFW-tv-FaP" userLabel="SizeView" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SizeView" title="Size, Crust, and Drink View" id="MFW-tv-FaP" userLabel="SizeView" customClass="SizeView" customModule="Domestic_Violence_Pizza_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Y5-FP-20j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -788,21 +788,14 @@
             </objects>
             <point key="canvasLocation" x="528.79999999999995" y="124.58770614692655"/>
         </scene>
-        <!--CheeseView-->
+        <!--ToppingView-->
         <scene sceneID="4xV-Fa-nH9">
             <objects>
-                <viewController title="Topping View" id="RKM-65-5Wh" userLabel="CheeseView" sceneMemberID="viewController">
+                <viewController title="ToppingView" id="RKM-65-5Wh" userLabel="ToppingView" customClass="ToppingView" customModule="Domestic_Violence_Pizza_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cgc-sz-sKe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheese Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYf-CY-0M1">
-                                <rect key="frame" x="137" y="20" width="101" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iZx-Uz-1Bd">
                                 <rect key="frame" x="16" y="109" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -940,6 +933,13 @@
                                 <rect key="frame" x="155" y="64" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toppings Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYf-CY-0M1">
+                                <rect key="frame" x="131" y="20" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
