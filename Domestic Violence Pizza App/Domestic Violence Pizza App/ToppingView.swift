@@ -3,7 +3,7 @@
 
 import UIKit
 
-class Toppings: UIViewController {
+class ToppingView: UIViewController {
     @IBAction func Peppernoi(_: Any) {}
 
     @IBAction func Mild(_: Any) {}
