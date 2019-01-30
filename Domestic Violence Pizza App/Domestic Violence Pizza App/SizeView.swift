@@ -3,26 +3,19 @@
 
 import UIKit
 
-class SizeCrust: UIViewController {
-    @IBAction func FamilyS(_: Any) {}
+class SizeView: UIViewController {
+    @IBOutlet var AllSize: [UISwitch]!
+    @IBOutlet var AllCrust: [UISwitch]!
 
-    @IBAction func LargeS(_: Any) {}
-
-    @IBAction func MediumS(_: Any) {}
-
-    @IBAction func SmallS(_: Any) {}
-
-    @IBAction func KidS(_: Any) {}
-
-    @IBAction func NormalC(_: Any) {}
-
-    @IBAction func StuffedC(_: Any) {}
-
-    @IBAction func ThinC(_: Any) {}
-
-    @IBAction func DoubleC(_: Any) {}
-
-    @IBAction func GlutenC(_: Any) {}
+    @IBAction func AllSwitches(_ sender: Any) {
+        if AllSize.contains(sender as! UISwitch) {
+            AllSize.forEach { s in s.setOn(false, animated: true) }
+        }
+        if AllCrust.contains(sender as! UISwitch) {
+            AllCrust.forEach { s in s.setOn(false, animated: true) }
+        }
+        (sender as! UISwitch).setOn(true, animated: true)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

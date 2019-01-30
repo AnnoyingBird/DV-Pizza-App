@@ -519,11 +519,7 @@
                         <viewLayoutGuide key="safeArea" id="9DR-nZ-78Z"/>
                     </view>
                     <navigationItem key="navigationItem" id="Zz9-8s-Ctz">
-                        <barButtonItem key="rightBarButtonItem" title="More" id="fTi-Yg-zXU">
-                            <connections>
-                                <segue destination="29z-RG-GgC" kind="push" id="WfI-G5-XHU"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="More" id="fTi-Yg-zXU"/>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
@@ -590,6 +586,7 @@
                                 <rect key="frame" x="16" y="109" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="vzu-u8-RGj"/>
                                     <action selector="FamilyS:" destination="7Hr-na-HK9" eventType="valueChanged" id="6UW-9d-VsW"/>
                                 </connections>
                             </switch>
@@ -597,6 +594,7 @@
                                 <rect key="frame" x="16" y="148" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="POv-M7-H9B"/>
                                     <action selector="LargeS:" destination="7Hr-na-HK9" eventType="valueChanged" id="TgQ-u2-7OQ"/>
                                 </connections>
                             </switch>
@@ -604,6 +602,7 @@
                                 <rect key="frame" x="16" y="187" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="jHL-ka-5ql"/>
                                     <action selector="MediumS:" destination="7Hr-na-HK9" eventType="valueChanged" id="ynT-Db-CYH"/>
                                 </connections>
                             </switch>
@@ -611,6 +610,7 @@
                                 <rect key="frame" x="16" y="226" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="9xL-s7-bRx"/>
                                     <action selector="SmallS:" destination="7Hr-na-HK9" eventType="valueChanged" id="UNb-qt-APr"/>
                                 </connections>
                             </switch>
@@ -618,6 +618,7 @@
                                 <rect key="frame" x="16" y="265" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="u0J-QF-HjM"/>
                                     <action selector="KidS:" destination="7Hr-na-HK9" eventType="valueChanged" id="DZS-eU-nE9"/>
                                 </connections>
                             </switch>
@@ -625,6 +626,7 @@
                                 <rect key="frame" x="16" y="358" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="7sJ-w9-xH9"/>
                                     <action selector="NormalC:" destination="7Hr-na-HK9" eventType="valueChanged" id="iUE-4s-SjW"/>
                                 </connections>
                             </switch>
@@ -632,6 +634,7 @@
                                 <rect key="frame" x="16" y="397" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="bzF-HS-EOP"/>
                                     <action selector="StuffedC:" destination="7Hr-na-HK9" eventType="valueChanged" id="7mT-PJ-QRX"/>
                                 </connections>
                             </switch>
@@ -639,6 +642,7 @@
                                 <rect key="frame" x="16" y="436" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="VkZ-OF-Mgk"/>
                                     <action selector="Thin:" destination="7Hr-na-HK9" eventType="valueChanged" id="6mA-kP-MZe"/>
                                 </connections>
                             </switch>
@@ -646,12 +650,14 @@
                                 <rect key="frame" x="16" y="475" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="P2H-Jv-Jfq"/>
                                     <action selector="DoubleC:" destination="7Hr-na-HK9" eventType="valueChanged" id="5jZ-yC-RxP"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sZA-34-eYj">
                                 <rect key="frame" x="16" y="514" width="49" height="31"/>
                                 <connections>
+                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="3I8-f3-YlL"/>
                                     <action selector="GlutenC:" destination="7Hr-na-HK9" eventType="valueChanged" id="YDL-Tp-jbk"/>
                                 </connections>
                             </switch>
@@ -757,6 +763,18 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outletCollection property="AllSize" destination="V6J-NK-4pK" collectionClass="NSMutableArray" id="an6-4M-5Yy"/>
+                        <outletCollection property="AllCrust" destination="fOM-Am-PJ9" collectionClass="NSMutableArray" id="2c3-kf-W4t"/>
+                        <outletCollection property="AllSize" destination="Dz7-N3-Lup" collectionClass="NSMutableArray" id="YOw-YR-R4Y"/>
+                        <outletCollection property="AllSize" destination="wBQ-2x-Tom" collectionClass="NSMutableArray" id="lAj-bx-N7y"/>
+                        <outletCollection property="AllSize" destination="jcT-OS-TbE" collectionClass="NSMutableArray" id="Q3W-kI-T0Y"/>
+                        <outletCollection property="AllSize" destination="hSN-Iu-5Rd" collectionClass="NSMutableArray" id="Abb-2a-obd"/>
+                        <outletCollection property="AllCrust" destination="p2x-k4-6YB" collectionClass="NSMutableArray" id="xlb-40-1Mt"/>
+                        <outletCollection property="AllCrust" destination="TR1-hm-ggx" collectionClass="NSMutableArray" id="PTs-CI-c57"/>
+                        <outletCollection property="AllCrust" destination="g8l-Jc-CVe" collectionClass="NSMutableArray" id="rez-na-BbF"/>
+                        <outletCollection property="AllCrust" destination="sZA-34-eYj" collectionClass="NSMutableArray" id="o7Z-f3-b61"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89k-nk-ecm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="7Hr-na-HK9" userLabel="Exit" sceneMemberID="exit"/>
