@@ -206,6 +206,9 @@
                             </barButtonItem>
                             <barButtonItem title="Item" image="untitled.png" id="gcf-pL-tNT">
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="HDS-37-IxR" kind="push" id="s1Y-NM-Aag"/>
+                                </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
@@ -224,7 +227,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lf0-aW-fT9">
-                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="892"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="40W-Oa-eEV">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
@@ -753,6 +756,9 @@
                             </barButtonItem>
                             <barButtonItem title="info" image="untitled.png" id="63n-e6-uZx">
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="HDS-37-IxR" kind="push" id="hA6-dP-EXt"/>
+                                </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
@@ -953,6 +959,9 @@
                             </barButtonItem>
                             <barButtonItem title="Item" image="untitled.png" id="5Jg-cb-uG1">
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="HDS-37-IxR" kind="push" id="azE-e0-Oe6"/>
+                                </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
@@ -973,7 +982,11 @@
                         <viewLayoutGuide key="safeArea" id="T7B-bB-M0g"/>
                     </view>
                     <navigationItem key="navigationItem" id="pdu-Oe-UhH">
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Item" image="untitled.png" id="2UY-UD-eKc"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="untitled.png" id="2UY-UD-eKc">
+                            <connections>
+                                <segue destination="HDS-37-IxR" kind="push" id="wNd-gW-lU9"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBI-9u-l7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -984,5 +997,8 @@
     <resources>
         <image name="untitled.png" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="wNd-gW-lU9"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.81176470590000005" green="0.13725490200000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>
