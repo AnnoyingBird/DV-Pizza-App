@@ -201,7 +201,6 @@
                             <barButtonItem title="Next" id="hP0-je-A6E">
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="Next:" destination="t8z-9R-iZn" id="xAi-cC-oz5"/>
                                     <segue destination="RKM-65-5Wh" kind="push" id="zVB-wk-YCm"/>
                                 </connections>
                             </barButtonItem>
@@ -213,14 +212,6 @@
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
-                    <connections>
-                        <outletCollection property="AllSauces" destination="mog-4I-kD9" collectionClass="NSMutableArray" id="Z6h-d1-Byg"/>
-                        <outletCollection property="AllSauces" destination="3vd-0H-dei" collectionClass="NSMutableArray" id="U5H-o9-H8u"/>
-                        <outletCollection property="AllSauces" destination="61p-SZ-UE6" collectionClass="NSMutableArray" id="L1C-z0-DYH"/>
-                        <outletCollection property="AllDrinks" destination="SpE-dN-ilY" collectionClass="NSMutableArray" id="Wys-Li-mx9"/>
-                        <outletCollection property="AllDrinks" destination="lHq-aj-Ytn" collectionClass="NSMutableArray" id="Gbh-qv-hVZ"/>
-                        <outletCollection property="AllDrinks" destination="B5j-np-RS6" collectionClass="NSMutableArray" id="YSs-uE-1Bk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eav-aL-yQx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="u6d-vd-3dg" userLabel="Exit" sceneMemberID="exit"/>
@@ -575,99 +566,89 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="V6J-NK-4pK" userLabel="Family">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="V6J-NK-4pK">
                                 <rect key="frame" x="16" y="131" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Family"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="vzu-u8-RGj"/>
                                     <action selector="FamilyS:" destination="7Hr-na-HK9" eventType="valueChanged" id="6UW-9d-VsW"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dz7-N3-Lup" userLabel="Large">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dz7-N3-Lup">
                                 <rect key="frame" x="16" y="170" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Large"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="POv-M7-H9B"/>
                                     <action selector="LargeS:" destination="7Hr-na-HK9" eventType="valueChanged" id="TgQ-u2-7OQ"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wBQ-2x-Tom" userLabel="Medium">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wBQ-2x-Tom">
                                 <rect key="frame" x="16" y="209" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Medium"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="jHL-ka-5ql"/>
                                     <action selector="MediumS:" destination="7Hr-na-HK9" eventType="valueChanged" id="ynT-Db-CYH"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jcT-OS-TbE" userLabel="Small">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jcT-OS-TbE">
                                 <rect key="frame" x="16" y="248" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Small"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="9xL-s7-bRx"/>
                                     <action selector="SmallS:" destination="7Hr-na-HK9" eventType="valueChanged" id="UNb-qt-APr"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hSN-Iu-5Rd" userLabel="Kid">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hSN-Iu-5Rd">
                                 <rect key="frame" x="16" y="287" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Kid"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="u0J-QF-HjM"/>
                                     <action selector="KidS:" destination="7Hr-na-HK9" eventType="valueChanged" id="DZS-eU-nE9"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fOM-Am-PJ9" userLabel="Normal">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fOM-Am-PJ9">
                                 <rect key="frame" x="16" y="380" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Normal"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="7sJ-w9-xH9"/>
                                     <action selector="NormalC:" destination="7Hr-na-HK9" eventType="valueChanged" id="iUE-4s-SjW"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="p2x-k4-6YB" userLabel="Stuffed">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="p2x-k4-6YB">
                                 <rect key="frame" x="16" y="419" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Stuffed"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="bzF-HS-EOP"/>
                                     <action selector="StuffedC:" destination="7Hr-na-HK9" eventType="valueChanged" id="7mT-PJ-QRX"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TR1-hm-ggx" userLabel="Thin">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TR1-hm-ggx">
                                 <rect key="frame" x="16" y="458" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Thin"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="VkZ-OF-Mgk"/>
                                     <action selector="Thin:" destination="7Hr-na-HK9" eventType="valueChanged" id="6mA-kP-MZe"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g8l-Jc-CVe" userLabel="Double">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g8l-Jc-CVe">
                                 <rect key="frame" x="16" y="497" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" label="Double"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="P2H-Jv-Jfq"/>
                                     <action selector="DoubleC:" destination="7Hr-na-HK9" eventType="valueChanged" id="5jZ-yC-RxP"/>
                                 </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sZA-34-eYj" userLabel="Gluten-Free">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sZA-34-eYj">
                                 <rect key="frame" x="16" y="536" width="49" height="31"/>
-                                <accessibility key="accessibilityConfiguration" label="Gluten-Free"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="3I8-f3-YlL"/>
@@ -770,7 +751,6 @@
                             <barButtonItem title="Next" id="rnE-xI-FrL">
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="Next:" destination="MFW-tv-FaP" id="wo2-Vr-lpq"/>
                                     <segue destination="t8z-9R-iZn" kind="push" id="U5T-8D-MSW"/>
                                 </connections>
                             </barButtonItem>
@@ -1018,7 +998,7 @@
         <image name="untitled.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="s1Y-NM-Aag"/>
+        <segue reference="wNd-gW-lU9"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.81176470590000005" green="0.13725490200000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>
