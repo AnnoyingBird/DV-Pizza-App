@@ -4,21 +4,14 @@
 import UIKit
 
 class SauceView: UIViewController {
-    @IBAction func RedS(_: Any) {}
-
-    @IBAction func WhiteS(_: Any) {}
-
-    @IBAction func NoS(_: Any) {}
-
-    @IBAction func ColaD(_: Any) {}
-
-    @IBAction func OrangeD(_: Any) {}
-
-    @IBAction func RootD(_: Any) {}
+    @IBOutlet var AllSauces: [UISwitch]!
+    @IBOutlet var AllDrinks: [UISwitch]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        // Do any additional setup after loading the view.
+    @IBAction func Next(_ sender: Any) {
+        UserDefaults.standard.object(forKey: "current") as? [String:String]
     }
 }
