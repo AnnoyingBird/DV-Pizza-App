@@ -17,17 +17,21 @@ class SizeView: UIViewController {
         (sender as! UISwitch).setOn(true, animated: true)
     }
 
-    @IBAction func Next(_ sender: Any) {
-        var opts: [String:String] = [:]
-        AllSize.forEach{ s in
-            if (s.isOn) {
-                opts["size"] = s.accessibilityLabel
+    @IBAction func Next(_: Any) {
+        var opts: [String: String] = [:]
+        AllSize.forEach { s in
+            if s.isOn {
+                opts["size"] = s.accessibilityLabel!
             }
         }
-        AllCrust.forEach{ s in
-            if (s.isOn) {
-                opts["crust"] = s.accessibilityLabel
+        AllCrust.forEach { s in
+            if s.isOn {
+                opts["crust"] = s.accessibilityLabel!
             }
+        }
+        if (opts["soze"]?.isEmpty)!, (opts["crust"]?.isEmpty)! {
+            // ERR!
+            return
         }
         UserDefaults.standard.set(opts, forKey: "current")
     }

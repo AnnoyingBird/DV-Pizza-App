@@ -11,7 +11,31 @@ class SauceView: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func Next(_ sender: Any) {
-        UserDefaults.standard.object(forKey: "current") as? [String:String]
+    @IBAction func SaucesChanged(_ sender: Any) {
+        AllSauces.forEach { s in s.setOn(false, animated: true) }
+        (sender as! UISwitch).setOn(true, animated: true)
+    }
+
+    @IBAction func Next(_: Any) {
+        var opts: [String: String] = [:]
+        if let ok = UserDefaults.standard.object(forKey: "current") as? [String: String] {
+            opts = ok
+        } else {
+            // ERR!
+            return
+        }
+        opts["sauces"] = ""
+        opts["drinks"] = ""
+        AllSauces.forEach { s in
+            if s.isOn {
+                opts["sauces"] = s.accessibilityLabel!
+            }
+        }
+        AllDrinks.forEach { s in
+            if s.isOn {
+                opts["drinks"]!.append(s.accessibilityLabel! + ",")
+            }
+        }
+        UserDefaults.standard.set(opts, forKey: "current")
     }
 }
