@@ -227,7 +227,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lf0-aW-fT9">
-                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="40W-Oa-eEV">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
@@ -1187,10 +1187,9 @@
         <image name="untitled.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="X7G-8G-Qxc"/>
-        <segue reference="JtS-uc-bG4"/>
-        <segue reference="EBu-La-BHy"/>
-        <segue reference="Qt6-tK-52E"/>
+        <segue reference="mC6-Qq-AkW"/>
+        <segue reference="OUx-15-428"/>
+        <segue reference="exf-NC-eXo"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.81176470590000005" green="0.13725490200000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>
