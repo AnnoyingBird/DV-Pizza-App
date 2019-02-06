@@ -28,7 +28,7 @@ class SauceView: UIViewController {
         opts["drinks"] = ""
         AllSauces.forEach { s in
             if s.isOn {
-                opts["sauces"] = s.accessibilityLabel!
+                opts["sauce"] = s.accessibilityLabel!
             }
         }
         AllDrinks.forEach { s in
@@ -36,6 +36,11 @@ class SauceView: UIViewController {
                 opts["drinks"]!.append(s.accessibilityLabel! + ",")
             }
         }
+        if opts["sauce"]!.isEmpty {
+            return
+        }
+        let ToppingView = storyboard?.instantiateViewController(withIdentifier: "ToppingView") as! ToppingView
+        navigationController?.pushViewController(ToppingView, animated: true)
         UserDefaults.standard.set(opts, forKey: "current")
     }
 }

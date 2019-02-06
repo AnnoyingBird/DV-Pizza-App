@@ -211,7 +211,6 @@
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="Next:" destination="t8z-9R-iZn" id="xAi-cC-oz5"/>
-                                    <segue destination="RKM-65-5Wh" kind="push" id="zVB-wk-YCm"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="Item" image="untitled.png" id="gcf-pL-tNT">
@@ -245,7 +244,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lf0-aW-fT9">
-                                <rect key="frame" x="0.0" y="64" width="375" height="892"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="40W-Oa-eEV">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
@@ -780,7 +779,6 @@
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="Next:" destination="MFW-tv-FaP" id="wo2-Vr-lpq"/>
-                                    <segue destination="t8z-9R-iZn" kind="push" id="U5T-8D-MSW"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="info" image="untitled.png" id="63n-e6-uZx">
@@ -825,77 +823,59 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iZx-Uz-1Bd">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iZx-Uz-1Bd" userLabel="Pepperoni">
                                 <rect key="frame" x="16" y="138" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Pepperoni"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Peppernoi:" destination="ixq-hG-fbR" eventType="valueChanged" id="REq-BI-j4E"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v10-ae-rbP">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v10-ae-rbP" userLabel="Mild Italian Sausage">
                                 <rect key="frame" x="16" y="177" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Mild Italian Sausage"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Mild:" destination="ixq-hG-fbR" eventType="valueChanged" id="DPu-Rh-PEH"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U7Y-r1-vpM">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U7Y-r1-vpM" userLabel="Spicy Italian Sausage">
                                 <rect key="frame" x="16" y="216" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Spicy Italian Sausage"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Spicy:" destination="ixq-hG-fbR" eventType="valueChanged" id="fSi-XB-ri1"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IpF-ff-5KZ">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IpF-ff-5KZ" userLabel="Canadian Bacon">
                                 <rect key="frame" x="16" y="255" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Canadian Bacon"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Canadian:" destination="ixq-hG-fbR" eventType="valueChanged" id="AGu-Lg-wiz"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ViM-PK-22l">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ViM-PK-22l" userLabel="Bacon">
                                 <rect key="frame" x="16" y="294" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Bacon"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Bacon:" destination="ixq-hG-fbR" eventType="valueChanged" id="r2Z-hF-hTs"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mSn-Q9-mDn">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mSn-Q9-mDn" userLabel="Olives">
                                 <rect key="frame" x="16" y="387" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Olives"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Olive:" destination="ixq-hG-fbR" eventType="valueChanged" id="VvW-ef-OSI"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2VW-Wo-wln">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2VW-Wo-wln" userLabel="Bell Peppers">
                                 <rect key="frame" x="16" y="426" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Bell Peppers"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="BellPepps:" destination="ixq-hG-fbR" eventType="valueChanged" id="rLG-Kb-Drq"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0xX-zK-G4I">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0xX-zK-G4I" userLabel="Mushrooms">
                                 <rect key="frame" x="16" y="465" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Mushrooms"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Mushrooms:" destination="ixq-hG-fbR" eventType="valueChanged" id="GOb-Ov-UaN"/>
-                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4nX-iC-Usj">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4nX-iC-Usj" userLabel="Pineapple">
                                 <rect key="frame" x="16" y="504" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Pineapple"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="Pineapple:" destination="ixq-hG-fbR" eventType="valueChanged" id="hw6-sL-8of"/>
-                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pepperoni" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGb-ZC-cbp">
                                 <rect key="frame" x="71" y="143" width="183" height="21"/>
@@ -983,7 +963,7 @@
                             <barButtonItem title="Next" id="Sq8-JG-WWS">
                                 <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <segue destination="bhI-MJ-qdw" kind="push" id="JtS-uc-bG4"/>
+                                    <action selector="Next:" destination="RKM-65-5Wh" id="ALx-DS-BXL"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="Item" image="untitled.png" id="5Jg-cb-uG1">
@@ -994,16 +974,26 @@
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outletCollection property="AllMeat" destination="iZx-Uz-1Bd" collectionClass="NSMutableArray" id="eEO-4c-Lc4"/>
+                        <outletCollection property="AllMeat" destination="v10-ae-rbP" collectionClass="NSMutableArray" id="ouJ-9C-Dwn"/>
+                        <outletCollection property="AllMeat" destination="U7Y-r1-vpM" collectionClass="NSMutableArray" id="gd1-JJ-fAu"/>
+                        <outletCollection property="AllMeat" destination="IpF-ff-5KZ" collectionClass="NSMutableArray" id="Bon-lf-qkB"/>
+                        <outletCollection property="AllMeat" destination="ViM-PK-22l" collectionClass="NSMutableArray" id="M2S-0b-0Qo"/>
+                        <outletCollection property="AllVeggies" destination="mSn-Q9-mDn" collectionClass="NSMutableArray" id="cqU-IS-qbH"/>
+                        <outletCollection property="AllVeggies" destination="2VW-Wo-wln" collectionClass="NSMutableArray" id="JtM-RG-UUE"/>
+                        <outletCollection property="AllVeggies" destination="0xX-zK-G4I" collectionClass="NSMutableArray" id="tq2-mF-6LG"/>
+                        <outletCollection property="AllVeggies" destination="4nX-iC-Usj" collectionClass="NSMutableArray" id="CvZ-SL-Hzo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tn5-O2-AWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="ixq-hG-fbR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="529" y="836"/>
         </scene>
         <!--InformationPage-->
         <scene sceneID="HYI-yw-ByJ">
             <objects>
-                <viewController title="Special Request" id="bhI-MJ-qdw" userLabel="InformationPage" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrderComplete" title="Special Request" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bhI-MJ-qdw" userLabel="InformationPage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="swi-8x-CUw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1027,7 +1017,7 @@
         <image name="untitled.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hA6-dP-EXt"/>
+        <segue reference="azE-e0-Oe6"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.81176470590000005" green="0.13725490200000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>

@@ -30,9 +30,10 @@ class SizeView: UIViewController {
             }
         }
         if (opts["soze"]?.isEmpty)!, (opts["crust"]?.isEmpty)! {
-            // ERR!
             return
         }
+        let SauceView = storyboard?.instantiateViewController(withIdentifier: "SauceView") as! SauceView
+        navigationController?.pushViewController(SauceView, animated: true)
         UserDefaults.standard.set(opts, forKey: "current")
     }
 
