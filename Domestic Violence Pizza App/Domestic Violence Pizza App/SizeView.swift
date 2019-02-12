@@ -17,27 +17,9 @@ class SizeView: UIViewController {
         (sender as! UISwitch).setOn(true, animated: true)
     }
 
-    @IBAction func Next(_: Any) {
-        var opts: [String: String] = [:]
-        AllSize.forEach { s in
-            if s.isOn {
-                opts["size"] = s.accessibilityLabel!
-            }
-        }
-        AllCrust.forEach { s in
-            if s.isOn {
-                opts["crust"] = s.accessibilityLabel!
-            }
-        }
-        if (opts["soze"]?.isEmpty)!, (opts["crust"]?.isEmpty)! {
-            return
-        }
-        let SauceView = storyboard?.instantiateViewController(withIdentifier: "SauceView") as! SauceView
-        navigationController?.pushViewController(SauceView, animated: true)
-        UserDefaults.standard.set(opts, forKey: "current")
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
 }
