@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B4B9F222137B1B00DF905C /* Davey's_Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B4B9F122137B1B00DF905C /* Davey's_Pizza.png */; };
 		4B19B13A21C03E7C007903A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B19B13921C03E7C007903A7 /* AppDelegate.swift */; };
 		4B19B13F21C03E7C007903A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B13D21C03E7C007903A7 /* Main.storyboard */; };
 		4B19B14121C03E7E007903A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B14021C03E7E007903A7 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B4B9F122137B1B00DF905C /* Davey's_Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Davey's_Pizza.png"; sourceTree = SOURCE_ROOT; };
 		4B19B13621C03E7C007903A7 /* Domestic Violence Pizza App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domestic Violence Pizza App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B19B13921C03E7C007903A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B19B13E21C03E7C007903A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				4B19B13921C03E7C007903A7 /* AppDelegate.swift */,
 				4B19B13D21C03E7C007903A7 /* Main.storyboard */,
 				4BD624A421E91015007D0E7C /* untitled.png */,
+				18B4B9F122137B1B00DF905C /* Davey's_Pizza.png */,
 				4B19B14021C03E7E007903A7 /* Assets.xcassets */,
 				4B19B14221C03E7E007903A7 /* LaunchScreen.storyboard */,
 				FE5166A82200E991008176AB /* StartingView.swift */,
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B19B14421C03E7E007903A7 /* LaunchScreen.storyboard in Resources */,
+				18B4B9F222137B1B00DF905C /* Davey's_Pizza.png in Resources */,
 				4B19B14121C03E7E007903A7 /* Assets.xcassets in Resources */,
 				4B19B13F21C03E7C007903A7 /* Main.storyboard in Resources */,
 				4BD624A521E91015007D0E7C /* untitled.png in Resources */,

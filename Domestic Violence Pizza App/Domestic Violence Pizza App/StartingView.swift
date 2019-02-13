@@ -4,6 +4,10 @@
 import UIKit
 
 class StartingView: UIViewController {
+    @IBOutlet var Customize: UIButton!
+    @IBOutlet var QuickOrder: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true 
