@@ -12,7 +12,6 @@
 		4B19B13F21C03E7C007903A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B13D21C03E7C007903A7 /* Main.storyboard */; };
 		4B19B14121C03E7E007903A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B14021C03E7E007903A7 /* Assets.xcassets */; };
 		4B19B14421C03E7E007903A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B19B14221C03E7E007903A7 /* LaunchScreen.storyboard */; };
-		4B696DE4220A3B7B00DA31BE /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B696DE3220A3B7B00DA31BE /* FinalView.swift */; };
 		4BD624A521E91015007D0E7C /* untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD624A421E91015007D0E7C /* untitled.png */; };
 		FE5166A92200E991008176AB /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5166A82200E991008176AB /* StartingView.swift */; };
 		FE5166AB2200E9E5008176AB /* SauceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5166AA2200E9E5008176AB /* SauceView.swift */; };
@@ -27,28 +26,27 @@
 			containerPortal = 4B19B12E21C03E7C007903A7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4B19B13521C03E7C007903A7;
-			remoteInfo = "Domestic Violence Pizza App";
+			remoteInfo = "Davey's Pizza App";
 		};
 		4B19B15621C03E7E007903A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4B19B12E21C03E7C007903A7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4B19B13521C03E7C007903A7;
-			remoteInfo = "Domestic Violence Pizza App";
+			remoteInfo = "Davey's Pizza App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18B4B9F122137B1B00DF905C /* Davey's_Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Davey's_Pizza.png"; sourceTree = SOURCE_ROOT; };
-		4B19B13621C03E7C007903A7 /* Domestic Violence Pizza App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domestic Violence Pizza App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B19B13621C03E7C007903A7 /* Davey's Pizza App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Davey's Pizza App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B19B13921C03E7C007903A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B19B13E21C03E7C007903A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B19B14021C03E7E007903A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B19B14321C03E7E007903A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B19B14521C03E7E007903A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B19B14A21C03E7E007903A7 /* Domestic Violence Pizza AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domestic Violence Pizza AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B19B15521C03E7E007903A7 /* Domestic Violence Pizza AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domestic Violence Pizza AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B696DE3220A3B7B00DA31BE /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		4B19B14A21C03E7E007903A7 /* Davey's Pizza AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davey's Pizza AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B19B15521C03E7E007903A7 /* Davey's Pizza AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davey's Pizza AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD624A421E91015007D0E7C /* untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitled.png; sourceTree = SOURCE_ROOT; };
 		FE5166A82200E991008176AB /* StartingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
 		FE5166AA2200E9E5008176AB /* SauceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SauceView.swift; sourceTree = "<group>"; };
@@ -85,7 +83,7 @@
 		4B19B12D21C03E7C007903A7 = {
 			isa = PBXGroup;
 			children = (
-				4B19B13821C03E7C007903A7 /* Domestic Violence Pizza App */,
+				4B19B13821C03E7C007903A7 /* Davey's Pizza App */,
 				4B19B13721C03E7C007903A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +91,14 @@
 		4B19B13721C03E7C007903A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B19B13621C03E7C007903A7 /* Domestic Violence Pizza App.app */,
-				4B19B14A21C03E7E007903A7 /* Domestic Violence Pizza AppTests.xctest */,
-				4B19B15521C03E7E007903A7 /* Domestic Violence Pizza AppUITests.xctest */,
+				4B19B13621C03E7C007903A7 /* Davey's Pizza App.app */,
+				4B19B14A21C03E7E007903A7 /* Davey's Pizza AppTests.xctest */,
+				4B19B15521C03E7E007903A7 /* Davey's Pizza AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B19B13821C03E7C007903A7 /* Domestic Violence Pizza App */ = {
+		4B19B13821C03E7C007903A7 /* Davey's Pizza App */ = {
 			isa = PBXGroup;
 			children = (
 				FE5166B02200FD98008176AB /* ToppingView.swift */,
@@ -115,17 +113,16 @@
 				FE5166A82200E991008176AB /* StartingView.swift */,
 				4B19B14521C03E7E007903A7 /* Info.plist */,
 				FE5166AC2200EA77008176AB /* InformationView.swift */,
-				4B696DE3220A3B7B00DA31BE /* FinalView.swift */,
 			);
-			path = "Domestic Violence Pizza App";
+			path = "Davey's Pizza App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B19B13521C03E7C007903A7 /* Domestic Violence Pizza App */ = {
+		4B19B13521C03E7C007903A7 /* Davey's Pizza App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B19B15E21C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Domestic Violence Pizza App" */;
+			buildConfigurationList = 4B19B15E21C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Davey's Pizza App" */;
 			buildPhases = (
 				4B19B13221C03E7C007903A7 /* Sources */,
 				4B19B13321C03E7C007903A7 /* Frameworks */,
@@ -135,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = "Domestic Violence Pizza App";
-			productName = "Domestic Violence Pizza App";
-			productReference = 4B19B13621C03E7C007903A7 /* Domestic Violence Pizza App.app */;
+			name = "Davey's Pizza App";
+			productName = "Davey's Pizza App";
+			productReference = 4B19B13621C03E7C007903A7 /* Davey's Pizza App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B19B14921C03E7E007903A7 /* Domestic Violence Pizza AppTests */ = {
+		4B19B14921C03E7E007903A7 /* Davey's Pizza AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B19B16121C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Domestic Violence Pizza AppTests" */;
+			buildConfigurationList = 4B19B16121C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Davey's Pizza AppTests" */;
 			buildPhases = (
 				4B19B14621C03E7E007903A7 /* Sources */,
 				4B19B14721C03E7E007903A7 /* Frameworks */,
@@ -153,14 +150,14 @@
 			dependencies = (
 				4B19B14C21C03E7E007903A7 /* PBXTargetDependency */,
 			);
-			name = "Domestic Violence Pizza AppTests";
-			productName = "Domestic Violence Pizza AppTests";
-			productReference = 4B19B14A21C03E7E007903A7 /* Domestic Violence Pizza AppTests.xctest */;
+			name = "Davey's Pizza AppTests";
+			productName = "Davey's Pizza AppTests";
+			productReference = 4B19B14A21C03E7E007903A7 /* Davey's Pizza AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4B19B15421C03E7E007903A7 /* Domestic Violence Pizza AppUITests */ = {
+		4B19B15421C03E7E007903A7 /* Davey's Pizza AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B19B16421C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Domestic Violence Pizza AppUITests" */;
+			buildConfigurationList = 4B19B16421C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Davey's Pizza AppUITests" */;
 			buildPhases = (
 				4B19B15121C03E7E007903A7 /* Sources */,
 				4B19B15221C03E7E007903A7 /* Frameworks */,
@@ -171,9 +168,9 @@
 			dependencies = (
 				4B19B15721C03E7E007903A7 /* PBXTargetDependency */,
 			);
-			name = "Domestic Violence Pizza AppUITests";
-			productName = "Domestic Violence Pizza AppUITests";
-			productReference = 4B19B15521C03E7E007903A7 /* Domestic Violence Pizza AppUITests.xctest */;
+			name = "Davey's Pizza AppUITests";
+			productName = "Davey's Pizza AppUITests";
+			productReference = 4B19B15521C03E7E007903A7 /* Davey's Pizza AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B19B13121C03E7C007903A7 /* Build configuration list for PBXProject "Domestic Violence Pizza App" */;
+			buildConfigurationList = 4B19B13121C03E7C007903A7 /* Build configuration list for PBXProject "Davey's Pizza App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,9 +209,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B19B13521C03E7C007903A7 /* Domestic Violence Pizza App */,
-				4B19B14921C03E7E007903A7 /* Domestic Violence Pizza AppTests */,
-				4B19B15421C03E7E007903A7 /* Domestic Violence Pizza AppUITests */,
+				4B19B13521C03E7C007903A7 /* Davey's Pizza App */,
+				4B19B14921C03E7E007903A7 /* Davey's Pizza AppTests */,
+				4B19B15421C03E7E007903A7 /* Davey's Pizza AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B696DE4220A3B7B00DA31BE /* FinalView.swift in Sources */,
 				FE5166B12200FD98008176AB /* ToppingView.swift in Sources */,
 				FE5166AB2200E9E5008176AB /* SauceView.swift in Sources */,
 				FE5166AD2200EA77008176AB /* InformationView.swift in Sources */,
@@ -282,12 +278,12 @@
 /* Begin PBXTargetDependency section */
 		4B19B14C21C03E7E007903A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B19B13521C03E7C007903A7 /* Domestic Violence Pizza App */;
+			target = 4B19B13521C03E7C007903A7 /* Davey's Pizza App */;
 			targetProxy = 4B19B14B21C03E7E007903A7 /* PBXContainerItemProxy */;
 		};
 		4B19B15721C03E7E007903A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B19B13521C03E7C007903A7 /* Domestic Violence Pizza App */;
+			target = 4B19B13521C03E7C007903A7 /* Davey's Pizza App */;
 			targetProxy = 4B19B15621C03E7E007903A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,7 +429,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Domestic Violence Pizza App/Info.plist";
+				DEVELOPMENT_TEAM = JQWB24HC3P;
+				INFOPLIST_FILE = "Davey's Pizza App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +447,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Domestic Violence Pizza App/Info.plist";
+				DEVELOPMENT_TEAM = JQWB24HC3P;
+				INFOPLIST_FILE = "Davey's Pizza App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,7 +466,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Domestic Violence Pizza AppTests/Info.plist";
+				INFOPLIST_FILE = "Davey's Pizza AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domestic Violence Pizza App.app/Domestic Violence Pizza App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davey's Pizza App.app/Davey's Pizza App";
 			};
 			name = Debug;
 		};
@@ -488,7 +486,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Domestic Violence Pizza AppTests/Info.plist";
+				INFOPLIST_FILE = "Davey's Pizza AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domestic Violence Pizza App.app/Domestic Violence Pizza App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davey's Pizza App.app/Davey's Pizza App";
 			};
 			name = Release;
 		};
@@ -507,7 +505,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Domestic Violence Pizza AppUITests/Info.plist";
+				INFOPLIST_FILE = "Davey's Pizza AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Domestic Violence Pizza App";
+				TEST_TARGET_NAME = "Davey's Pizza App";
 			};
 			name = Debug;
 		};
@@ -526,7 +524,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Domestic Violence Pizza AppUITests/Info.plist";
+				INFOPLIST_FILE = "Davey's Pizza AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,14 +534,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Domestic Violence Pizza App";
+				TEST_TARGET_NAME = "Davey's Pizza App";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B19B13121C03E7C007903A7 /* Build configuration list for PBXProject "Domestic Violence Pizza App" */ = {
+		4B19B13121C03E7C007903A7 /* Build configuration list for PBXProject "Davey's Pizza App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B19B15C21C03E7E007903A7 /* Debug */,
@@ -552,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B19B15E21C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Domestic Violence Pizza App" */ = {
+		4B19B15E21C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Davey's Pizza App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B19B15F21C03E7E007903A7 /* Debug */,
@@ -561,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B19B16121C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Domestic Violence Pizza AppTests" */ = {
+		4B19B16121C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Davey's Pizza AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B19B16221C03E7E007903A7 /* Debug */,
@@ -570,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B19B16421C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Domestic Violence Pizza AppUITests" */ = {
+		4B19B16421C03E7E007903A7 /* Build configuration list for PBXNativeTarget "Davey's Pizza AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B19B16521C03E7E007903A7 /* Debug */,
