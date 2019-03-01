@@ -4,37 +4,38 @@
 import UIKit
 
 class SizeView: UIViewController {
-    @IBOutlet var AllSize: [UISwitch]!
-    @IBOutlet var AllCrust: [UISwitch]!
+    @IBOutlet var allSize: [UISwitch]!
+    @IBOutlet var allCrust: [UISwitch]!
 
-    @IBAction func AllSwitches(_ sender: Any) {
-        if AllSize.contains(sender as! UISwitch) {
-            AllSize.forEach { s in s.setOn(false, animated: true) }
+    @IBAction func allSwitchesChanges(_ sender: UISwitch) {
+        if allSize.contains(sender) {
+            allSize.forEach { size in size.setOn(false, animated: true) }
         }
-        if AllCrust.contains(sender as! UISwitch) {
-            AllCrust.forEach { s in s.setOn(false, animated: true) }
+        if allCrust.contains(sender) {
+            allCrust.forEach { crust in crust.setOn(false, animated: true) }
         }
-        (sender as! UISwitch).setOn(true, animated: true)
+        sender.setOn(true, animated: true)
     }
 
-    @IBAction func Next(_: Any) {
+    @IBAction func next(_: Any) {
         var opts: [String: String] = ["size": "", "crust": ""]
-        AllSize.forEach { s in
-            if s.isOn {
-                opts["size"] = s.accessibilityLabel!
+        allSize.forEach { size in
+            if size.isOn {
+                opts["size"] = size.accessibilityLabel!
             }
         }
-        AllCrust.forEach { s in
-            if s.isOn {
-                opts["crust"] = s.accessibilityLabel!
+        allCrust.forEach { crust in
+            if crust.isOn {
+                opts["crust"] = crust.accessibilityLabel!
             }
         }
         if (opts["size"]?.isEmpty)! || (opts["crust"]?.isEmpty)! {
             return
         }
-        let SauceView = storyboard?.instantiateViewController(withIdentifier: "SauceView") as! SauceView
-        navigationController?.pushViewController(SauceView, animated: true)
-        UserDefaults.standard.set(opts, forKey: "current")
+        if let view = storyboard?.instantiateViewController(withIdentifier: "SauceView") as? SauceView {
+            navigationController?.pushViewController(view, animated: true)
+            UserDefaults.standard.set(opts, forKey: "current")
+        }
     }
 
     override func viewDidLoad() {

@@ -113,34 +113,34 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mog-4I-kD9" userLabel="Red">
-                                <rect key="frame" x="16" y="114" width="51" height="31"/>
+                                <rect key="frame" x="16" y="70" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Red"/>
                                 <color key="tintColor" red="0.84705010775862066" green="0.84705010775862066" blue="0.84705010775862066" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="RedS:" destination="u6d-vd-3dg" eventType="valueChanged" id="CoO-Wq-4tM"/>
-                                    <action selector="SaucesChanged:" destination="t8z-9R-iZn" eventType="valueChanged" id="fWq-PG-H04"/>
+                                    <action selector="saucesChanged:" destination="t8z-9R-iZn" eventType="valueChanged" id="5f5-41-fL7"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3vd-0H-dei" userLabel="White">
-                                <rect key="frame" x="16" y="153" width="51" height="31"/>
+                                <rect key="frame" x="16" y="109" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="White"/>
                                 <color key="tintColor" red="0.84705010775862066" green="0.84705010775862066" blue="0.84705010775862066" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="SaucesChanged:" destination="t8z-9R-iZn" eventType="valueChanged" id="D83-Cc-ots"/>
                                     <action selector="WhiteS:" destination="u6d-vd-3dg" eventType="valueChanged" id="uqh-NK-7S0"/>
+                                    <action selector="saucesChanged:" destination="t8z-9R-iZn" eventType="valueChanged" id="IuU-nb-zPI"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="61p-SZ-UE6" userLabel="No">
-                                <rect key="frame" x="16" y="192" width="51" height="31"/>
+                                <rect key="frame" x="16" y="148" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="No"/>
                                 <color key="tintColor" red="0.84705010775862066" green="0.84705010775862066" blue="0.84705010775862066" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="NoS:" destination="u6d-vd-3dg" eventType="valueChanged" id="rgn-xi-Oqd"/>
-                                    <action selector="SaucesChanged:" destination="t8z-9R-iZn" eventType="valueChanged" id="3UB-5p-yqH"/>
+                                    <action selector="saucesChanged:" destination="t8z-9R-iZn" eventType="valueChanged" id="wLg-8X-mYc"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Sauce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iHz-94-R2h">
-                                <rect key="frame" x="71" y="119.5" width="82" height="20.5"/>
+                                <rect key="frame" x="71" y="75.5" width="82" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20.5" id="BrB-My-Cq8"/>
                                 </constraints>
@@ -149,7 +149,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="White Sauce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fF2-iZ-OpT">
-                                <rect key="frame" x="71" y="158.5" width="96.5" height="20.5"/>
+                                <rect key="frame" x="71" y="114.5" width="96.5" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20.5" id="2Np-m3-RCf"/>
                                 </constraints>
@@ -158,7 +158,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Sauce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9EI-4o-mmq">
-                                <rect key="frame" x="71" y="197.5" width="74" height="20.5"/>
+                                <rect key="frame" x="71" y="153.5" width="74" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20.5" id="BdP-SU-Kc9"/>
                                 </constraints>
@@ -167,7 +167,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sauces" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kE-x2-WAz">
-                                <rect key="frame" x="147.5" y="79" width="80" height="30"/>
+                                <rect key="frame" x="147.5" y="35" width="80" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="07T-5L-E5Q"/>
                                     <constraint firstAttribute="width" constant="80" id="elN-ME-yZ8"/>
@@ -177,7 +177,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SpE-dN-ilY" userLabel="Cola">
-                                <rect key="frame" x="16" y="273" width="51" height="31"/>
+                                <rect key="frame" x="16" y="229" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Cola"/>
                                 <color key="tintColor" red="0.84705010775862066" green="0.84705010775862066" blue="0.84705010775862066" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -185,7 +185,7 @@
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B5j-np-RS6" userLabel="Root Beer">
-                                <rect key="frame" x="16" y="312" width="51" height="31"/>
+                                <rect key="frame" x="16" y="268" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Root Beer"/>
                                 <color key="tintColor" red="0.84705010775862066" green="0.84705010775862066" blue="0.84705010775862066" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -193,7 +193,7 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cola" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iY-i2-6cy">
-                                <rect key="frame" x="71" y="273" width="34.5" height="31"/>
+                                <rect key="frame" x="71" y="229" width="34.5" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="95h-HK-39P"/>
                                 </constraints>
@@ -202,7 +202,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Root Beer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dj-d1-erP">
-                                <rect key="frame" x="71" y="312" width="75.5" height="31"/>
+                                <rect key="frame" x="71" y="268" width="75.5" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="vbM-lw-zaH"/>
                                 </constraints>
@@ -211,7 +211,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drinks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kX3-cr-LhG">
-                                <rect key="frame" x="153" y="238" width="69" height="30"/>
+                                <rect key="frame" x="153" y="194" width="69" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="69" id="FZt-I0-aiv"/>
                                     <constraint firstAttribute="height" constant="30" id="bqc-K6-AmO"/>
@@ -255,18 +255,18 @@
                         <barButtonItem key="rightBarButtonItem" title="Next" id="Wab-rc-YhW">
                             <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="Next:" destination="t8z-9R-iZn" id="CZN-fV-LyC"/>
+                                <action selector="next:" destination="t8z-9R-iZn" id="X0n-uH-WCq"/>
                                 <segue destination="RKM-65-5Wh" kind="push" id="8Fz-TI-o8N"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outletCollection property="AllSauces" destination="mog-4I-kD9" collectionClass="NSMutableArray" id="6x3-A3-ha8"/>
-                        <outletCollection property="AllSauces" destination="3vd-0H-dei" collectionClass="NSMutableArray" id="aXU-zZ-6jX"/>
-                        <outletCollection property="AllSauces" destination="61p-SZ-UE6" collectionClass="NSMutableArray" id="umF-zN-7Fh"/>
-                        <outletCollection property="AllDrinks" destination="SpE-dN-ilY" collectionClass="NSMutableArray" id="u23-Kq-Qb5"/>
-                        <outletCollection property="AllDrinks" destination="B5j-np-RS6" collectionClass="NSMutableArray" id="PPF-Zw-iuF"/>
+                        <outletCollection property="allSauces" destination="mog-4I-kD9" collectionClass="NSMutableArray" id="6x3-A3-ha8"/>
+                        <outletCollection property="allSauces" destination="3vd-0H-dei" collectionClass="NSMutableArray" id="aXU-zZ-6jX"/>
+                        <outletCollection property="allSauces" destination="61p-SZ-UE6" collectionClass="NSMutableArray" id="umF-zN-7Fh"/>
+                        <outletCollection property="allDrinks" destination="SpE-dN-ilY" collectionClass="NSMutableArray" id="u23-Kq-Qb5"/>
+                        <outletCollection property="allDrinks" destination="B5j-np-RS6" collectionClass="NSMutableArray" id="PPF-Zw-iuF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eav-aL-yQx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -283,7 +283,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Card Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3B-rH-iPe">
-                                <rect key="frame" x="16" y="80" width="154" height="21"/>
+                                <rect key="frame" x="16" y="36" width="154" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="154" id="Uzr-wY-CGz"/>
                                     <constraint firstAttribute="height" constant="21" id="red-7e-m8N"/>
@@ -293,7 +293,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hjk-fT-q9T">
-                                <rect key="frame" x="16" y="107" width="343" height="30"/>
+                                <rect key="frame" x="16" y="63" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="czB-WQ-9fg"/>
                                 </constraints>
@@ -302,7 +302,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Card CVV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fe-Om-ZOA">
-                                <rect key="frame" x="16" y="153" width="126" height="21"/>
+                                <rect key="frame" x="16" y="109" width="126" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="VUC-SE-7wS"/>
                                     <constraint firstAttribute="width" constant="126" id="aVS-Eh-ITS"/>
@@ -312,7 +312,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fGH-By-6do">
-                                <rect key="frame" x="16" y="180" width="343" height="30"/>
+                                <rect key="frame" x="16" y="136" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ipi-41-T68"/>
                                 </constraints>
@@ -321,7 +321,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expiration Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1d-Qf-LuU">
-                                <rect key="frame" x="16" y="226" width="117" height="21"/>
+                                <rect key="frame" x="16" y="182" width="117" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="117" id="5ld-If-qty"/>
                                     <constraint firstAttribute="height" constant="21" id="l0W-qS-elm"/>
@@ -331,7 +331,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OnW-5O-rWN">
-                                <rect key="frame" x="16" y="253" width="343" height="30"/>
+                                <rect key="frame" x="16" y="209" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="laP-Xk-BlE"/>
                                 </constraints>
@@ -340,7 +340,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reciever(s)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8Q-v4-njg">
-                                <rect key="frame" x="16" y="299" width="87" height="21"/>
+                                <rect key="frame" x="16" y="255" width="87" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="hXL-Zh-822"/>
                                     <constraint firstAttribute="width" constant="87" id="pw2-5N-u3y"/>
@@ -350,7 +350,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fRI-Wg-q9A">
-                                <rect key="frame" x="16" y="326" width="343" height="30"/>
+                                <rect key="frame" x="16" y="282" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="vWq-4b-kb8"/>
                                 </constraints>
@@ -359,7 +359,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special Requests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnk-8t-hmQ">
-                                <rect key="frame" x="16" y="372" width="132" height="21"/>
+                                <rect key="frame" x="16" y="328" width="132" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="B5E-u5-IwW"/>
                                     <constraint firstAttribute="width" constant="132" id="yRl-1q-ufd"/>
@@ -369,7 +369,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write any special requests in here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="870-66-H4U">
-                                <rect key="frame" x="16" y="399" width="343" height="128"/>
+                                <rect key="frame" x="16" y="355" width="343" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration" hint="Write any special requests in here" identifier="Write any special requests in here" label="Write any special requests in here"/>
                                 <constraints>
@@ -534,8 +534,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Large"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="POv-M7-H9B"/>
                                     <action selector="LargeS:" destination="7Hr-na-HK9" eventType="valueChanged" id="TgQ-u2-7OQ"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="POv-M7-H9B"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wBQ-2x-Tom" userLabel="Medium">
@@ -543,8 +543,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Medium"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="jHL-ka-5ql"/>
                                     <action selector="MediumS:" destination="7Hr-na-HK9" eventType="valueChanged" id="ynT-Db-CYH"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="jHL-ka-5ql"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jcT-OS-TbE" userLabel="Small">
@@ -552,8 +552,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Small"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="9xL-s7-bRx"/>
                                     <action selector="SmallS:" destination="7Hr-na-HK9" eventType="valueChanged" id="UNb-qt-APr"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="9xL-s7-bRx"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hSN-Iu-5Rd" userLabel="Kid Sized">
@@ -561,8 +561,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Kid Sized"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="u0J-QF-HjM"/>
                                     <action selector="KidS:" destination="7Hr-na-HK9" eventType="valueChanged" id="DZS-eU-nE9"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="u0J-QF-HjM"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fOM-Am-PJ9" userLabel="Normal">
@@ -570,8 +570,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Normal"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="7sJ-w9-xH9"/>
                                     <action selector="NormalC:" destination="7Hr-na-HK9" eventType="valueChanged" id="iUE-4s-SjW"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="7sJ-w9-xH9"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="p2x-k4-6YB" userLabel="Stuffed">
@@ -579,8 +579,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Stuffed"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="bzF-HS-EOP"/>
                                     <action selector="StuffedC:" destination="7Hr-na-HK9" eventType="valueChanged" id="7mT-PJ-QRX"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="bzF-HS-EOP"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TR1-hm-ggx" userLabel="Thin">
@@ -588,8 +588,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Thin"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="VkZ-OF-Mgk"/>
                                     <action selector="Thin:" destination="7Hr-na-HK9" eventType="valueChanged" id="6mA-kP-MZe"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="VkZ-OF-Mgk"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g8l-Jc-CVe" userLabel="Double">
@@ -597,8 +597,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Double"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="P2H-Jv-Jfq"/>
                                     <action selector="DoubleC:" destination="7Hr-na-HK9" eventType="valueChanged" id="5jZ-yC-RxP"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="P2H-Jv-Jfq"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sZA-34-eYj" userLabel="Gluten-Free">
@@ -606,8 +606,8 @@
                                 <accessibility key="accessibilityConfiguration" label="Gluten-Free"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="3I8-f3-YlL"/>
                                     <action selector="GlutenC:" destination="7Hr-na-HK9" eventType="valueChanged" id="YDL-Tp-jbk"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="3I8-f3-YlL"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Large" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6I-FB-VZw">
@@ -688,7 +688,7 @@
                                 </constraints>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="AllSwitches:" destination="MFW-tv-FaP" eventType="valueChanged" id="Mqg-ZW-xAO"/>
+                                    <action selector="allSwitchesChanges:" destination="MFW-tv-FaP" eventType="valueChanged" id="Mqg-ZW-xAO"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Family Sized" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Foh-cD-M8f">
@@ -760,22 +760,21 @@
                         <barButtonItem key="rightBarButtonItem" title="Next" id="M3r-7n-DMd">
                             <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="Next:" destination="MFW-tv-FaP" id="CK7-ve-XVZ"/>
-                                <segue destination="t8z-9R-iZn" kind="push" id="Nz5-Ca-LbL"/>
+                                <action selector="next:" destination="MFW-tv-FaP" id="CK7-ve-XVZ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outletCollection property="AllCrust" destination="fOM-Am-PJ9" collectionClass="NSMutableArray" id="2c3-kf-W4t"/>
-                        <outletCollection property="AllSize" destination="Dz7-N3-Lup" collectionClass="NSMutableArray" id="YOw-YR-R4Y"/>
-                        <outletCollection property="AllSize" destination="wBQ-2x-Tom" collectionClass="NSMutableArray" id="lAj-bx-N7y"/>
-                        <outletCollection property="AllSize" destination="jcT-OS-TbE" collectionClass="NSMutableArray" id="Q3W-kI-T0Y"/>
-                        <outletCollection property="AllSize" destination="hSN-Iu-5Rd" collectionClass="NSMutableArray" id="Abb-2a-obd"/>
-                        <outletCollection property="AllCrust" destination="p2x-k4-6YB" collectionClass="NSMutableArray" id="xlb-40-1Mt"/>
-                        <outletCollection property="AllCrust" destination="TR1-hm-ggx" collectionClass="NSMutableArray" id="PTs-CI-c57"/>
-                        <outletCollection property="AllCrust" destination="g8l-Jc-CVe" collectionClass="NSMutableArray" id="rez-na-BbF"/>
-                        <outletCollection property="AllCrust" destination="sZA-34-eYj" collectionClass="NSMutableArray" id="o7Z-f3-b61"/>
+                        <outletCollection property="allCrust" destination="fOM-Am-PJ9" collectionClass="NSMutableArray" id="2c3-kf-W4t"/>
+                        <outletCollection property="allSize" destination="Dz7-N3-Lup" collectionClass="NSMutableArray" id="YOw-YR-R4Y"/>
+                        <outletCollection property="allSize" destination="wBQ-2x-Tom" collectionClass="NSMutableArray" id="lAj-bx-N7y"/>
+                        <outletCollection property="allSize" destination="jcT-OS-TbE" collectionClass="NSMutableArray" id="Q3W-kI-T0Y"/>
+                        <outletCollection property="allSize" destination="hSN-Iu-5Rd" collectionClass="NSMutableArray" id="Abb-2a-obd"/>
+                        <outletCollection property="allCrust" destination="p2x-k4-6YB" collectionClass="NSMutableArray" id="xlb-40-1Mt"/>
+                        <outletCollection property="allCrust" destination="TR1-hm-ggx" collectionClass="NSMutableArray" id="PTs-CI-c57"/>
+                        <outletCollection property="allCrust" destination="g8l-Jc-CVe" collectionClass="NSMutableArray" id="rez-na-BbF"/>
+                        <outletCollection property="allCrust" destination="sZA-34-eYj" collectionClass="NSMutableArray" id="o7Z-f3-b61"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89k-nk-ecm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -799,7 +798,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iZx-Uz-1Bd" userLabel="Pepperoni">
-                                <rect key="frame" x="16" y="114" width="51" height="31"/>
+                                <rect key="frame" x="16" y="70" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Pepperoni"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -807,7 +806,7 @@
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v10-ae-rbP" userLabel="Mild Italian Sausage">
-                                <rect key="frame" x="16" y="153" width="51" height="31"/>
+                                <rect key="frame" x="16" y="109" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Mild Italian Sausage"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -815,7 +814,7 @@
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U7Y-r1-vpM" userLabel="Spicy Italian Sausage">
-                                <rect key="frame" x="16" y="192" width="51" height="31"/>
+                                <rect key="frame" x="16" y="148" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Spicy Italian Sausage"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -823,7 +822,7 @@
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IpF-ff-5KZ" userLabel="Canadian Bacon">
-                                <rect key="frame" x="16" y="231" width="51" height="31"/>
+                                <rect key="frame" x="16" y="187" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Canadian Bacon"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -831,7 +830,7 @@
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ViM-PK-22l" userLabel="Bacon">
-                                <rect key="frame" x="16" y="270" width="51" height="31"/>
+                                <rect key="frame" x="16" y="226" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Bacon"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -839,7 +838,7 @@
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mSn-Q9-mDn" userLabel="Olvies">
-                                <rect key="frame" x="16" y="351" width="51" height="31"/>
+                                <rect key="frame" x="16" y="307" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Olvies"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -847,7 +846,7 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pepperoni" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGb-ZC-cbp">
-                                <rect key="frame" x="71" y="119" width="78" height="21"/>
+                                <rect key="frame" x="71" y="75" width="78" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="EYi-e7-3j5"/>
                                 </constraints>
@@ -856,7 +855,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mild Italian Sausage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f9-oZ-kZl">
-                                <rect key="frame" x="71" y="158" width="152" height="21"/>
+                                <rect key="frame" x="71" y="114" width="152" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="18m-gg-azA"/>
                                 </constraints>
@@ -865,7 +864,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spicy Italian Sausage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZp-3l-4bx">
-                                <rect key="frame" x="71" y="197" width="162" height="21"/>
+                                <rect key="frame" x="71" y="153" width="162" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="QOE-lF-Cvh"/>
                                 </constraints>
@@ -874,7 +873,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bacon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVm-CC-CmB">
-                                <rect key="frame" x="71" y="275" width="48.5" height="21"/>
+                                <rect key="frame" x="71" y="231" width="48.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="m9F-FO-ov3"/>
                                 </constraints>
@@ -883,7 +882,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Canadian Bacon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQ1-DQ-1E3">
-                                <rect key="frame" x="71" y="236" width="124.5" height="21"/>
+                                <rect key="frame" x="71" y="192" width="124.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Gfz-ID-Ovq"/>
                                 </constraints>
@@ -892,7 +891,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olives" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlp-dn-Fgz">
-                                <rect key="frame" x="71" y="356" width="47" height="21"/>
+                                <rect key="frame" x="71" y="312" width="47" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="BsJ-l7-t4r"/>
                                 </constraints>
@@ -901,7 +900,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E69-hx-L0U">
-                                <rect key="frame" x="153.5" y="79" width="68" height="30"/>
+                                <rect key="frame" x="153.5" y="35" width="68" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="68" id="Ify-NE-ijx"/>
                                     <constraint firstAttribute="height" constant="30" id="oyI-sh-oka"/>
@@ -911,7 +910,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Toppings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBT-ol-pyo">
-                                <rect key="frame" x="104.5" y="316" width="166" height="30"/>
+                                <rect key="frame" x="104.5" y="272" width="166" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="166" id="D3h-Dr-EhI"/>
                                     <constraint firstAttribute="height" constant="30" id="qAo-SW-dIt"/>
@@ -921,7 +920,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4nX-iC-Usj" userLabel="Pineapple">
-                                <rect key="frame" x="16" y="390" width="51" height="31"/>
+                                <rect key="frame" x="16" y="346" width="51" height="31"/>
                                 <accessibility key="accessibilityConfiguration" label="Pineapple"/>
                                 <color key="tintColor" red="0.84705010780000001" green="0.84705010780000001" blue="0.84705010780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -929,7 +928,7 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pineapple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RI-Tw-P7M">
-                                <rect key="frame" x="71" y="395" width="75.5" height="21"/>
+                                <rect key="frame" x="71" y="351" width="75.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ylS-yk-zMl"/>
                                 </constraints>
@@ -979,19 +978,19 @@
                         <barButtonItem key="rightBarButtonItem" title="Next" id="Sq8-JG-WWS">
                             <color key="tintColor" red="0.18823529410000001" green="0.65098039220000004" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="Next:" destination="RKM-65-5Wh" id="flj-o7-R0r"/>
+                                <action selector="next:" destination="RKM-65-5Wh" id="flj-o7-R0r"/>
                                 <segue destination="xB3-ea-riO" kind="push" id="mvH-NL-KlM"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outletCollection property="AllToppings" destination="iZx-Uz-1Bd" collectionClass="NSMutableArray" id="bmX-bo-zqR"/>
-                        <outletCollection property="AllToppings" destination="v10-ae-rbP" collectionClass="NSMutableArray" id="iMX-dc-qUr"/>
-                        <outletCollection property="AllToppings" destination="U7Y-r1-vpM" collectionClass="NSMutableArray" id="iX1-iz-ljA"/>
-                        <outletCollection property="AllToppings" destination="IpF-ff-5KZ" collectionClass="NSMutableArray" id="DE7-EN-8LZ"/>
-                        <outletCollection property="AllToppings" destination="ViM-PK-22l" collectionClass="NSMutableArray" id="rKi-pW-isk"/>
-                        <outletCollection property="AllToppings" destination="mSn-Q9-mDn" collectionClass="NSMutableArray" id="q5O-Lj-f0O"/>
-                        <outletCollection property="AllToppings" destination="4nX-iC-Usj" collectionClass="NSMutableArray" id="si1-Gv-jJr"/>
+                        <outletCollection property="allToppings" destination="iZx-Uz-1Bd" collectionClass="NSMutableArray" id="bmX-bo-zqR"/>
+                        <outletCollection property="allToppings" destination="v10-ae-rbP" collectionClass="NSMutableArray" id="iMX-dc-qUr"/>
+                        <outletCollection property="allToppings" destination="U7Y-r1-vpM" collectionClass="NSMutableArray" id="iX1-iz-ljA"/>
+                        <outletCollection property="allToppings" destination="IpF-ff-5KZ" collectionClass="NSMutableArray" id="DE7-EN-8LZ"/>
+                        <outletCollection property="allToppings" destination="ViM-PK-22l" collectionClass="NSMutableArray" id="rKi-pW-isk"/>
+                        <outletCollection property="allToppings" destination="mSn-Q9-mDn" collectionClass="NSMutableArray" id="q5O-Lj-f0O"/>
+                        <outletCollection property="allToppings" destination="4nX-iC-Usj" collectionClass="NSMutableArray" id="si1-Gv-jJr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tn5-O2-AWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1008,7 +1007,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address of Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueb-vJ-qt3">
-                                <rect key="frame" x="16" y="80" width="149" height="21"/>
+                                <rect key="frame" x="16" y="36" width="149" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="149" id="2HM-cR-UU1"/>
                                     <constraint firstAttribute="height" constant="21" id="iky-2A-ziu"/>
@@ -1018,7 +1017,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q7I-Rh-Jvd">
-                                <rect key="frame" x="16" y="107" width="343" height="30"/>
+                                <rect key="frame" x="16" y="63" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="5Te-zF-kc8"/>
                                 </constraints>
@@ -1027,7 +1026,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Card Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFZ-xL-cyz">
-                                <rect key="frame" x="16" y="153" width="154" height="21"/>
+                                <rect key="frame" x="16" y="109" width="154" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="l9z-ba-xXO"/>
                                     <constraint firstAttribute="width" constant="154" id="rzt-88-NFf"/>
@@ -1037,7 +1036,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6yX-1U-nlz">
-                                <rect key="frame" x="16" y="180" width="343" height="30"/>
+                                <rect key="frame" x="16" y="136" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4sp-kC-5Xw"/>
                                 </constraints>
@@ -1046,7 +1045,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Card CVV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XY1-AF-z6l">
-                                <rect key="frame" x="16" y="226" width="126" height="21"/>
+                                <rect key="frame" x="16" y="182" width="126" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="126" id="Vx5-2v-Geo"/>
                                     <constraint firstAttribute="height" constant="21" id="eVy-M2-Z6i"/>
@@ -1056,7 +1055,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7N9-8o-h9s">
-                                <rect key="frame" x="16" y="253" width="343" height="30"/>
+                                <rect key="frame" x="16" y="209" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ul1-uR-OC7"/>
                                 </constraints>
@@ -1065,7 +1064,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expiration Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAY-Qn-opb">
-                                <rect key="frame" x="16" y="299" width="117" height="21"/>
+                                <rect key="frame" x="16" y="255" width="117" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4JF-qc-Jyw"/>
                                     <constraint firstAttribute="width" constant="117" id="Rgr-1I-Rdb"/>
@@ -1075,7 +1074,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lMe-9j-Pkz">
-                                <rect key="frame" x="16" y="326" width="343" height="30"/>
+                                <rect key="frame" x="16" y="282" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="A3r-iv-Ozx"/>
                                 </constraints>
@@ -1084,7 +1083,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery Reciever(s)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gS-a0-WDO">
-                                <rect key="frame" x="16" y="372" width="153" height="21"/>
+                                <rect key="frame" x="16" y="328" width="153" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="IfH-Mo-VTd"/>
                                     <constraint firstAttribute="width" constant="153" id="MH6-Pb-udU"/>
@@ -1094,7 +1093,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aLn-34-Bgr">
-                                <rect key="frame" x="16" y="399" width="343" height="30"/>
+                                <rect key="frame" x="16" y="355" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="71u-2R-fgi"/>
                                 </constraints>
@@ -1103,7 +1102,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special Requests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boc-Ny-Xls">
-                                <rect key="frame" x="16" y="445" width="132" height="21"/>
+                                <rect key="frame" x="16" y="401" width="132" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="2NS-pY-6IW"/>
                                     <constraint firstAttribute="width" constant="132" id="RaP-Os-JfZ"/>
@@ -1113,7 +1112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write any special requests in here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Ui-o6-NpJ">
-                                <rect key="frame" x="16" y="472" width="343" height="128"/>
+                                <rect key="frame" x="16" y="428" width="343" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration" hint="Write any special requests in here" identifier="Write any special requests in here" label="Write any special requests in here"/>
                                 <constraints>
